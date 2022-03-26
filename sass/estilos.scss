@@ -1,0 +1,176 @@
+/*Variáveis*/
+
+@import 'variaveis';
+
+/*Layout*/
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: $background-site;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+/*Barra de navegação*/
+
+.navbar-pizzaria {
+
+    background: $bg-navegacao;
+    border-radius: 0 0 50px 50px;
+    opacity: 0.8;
+
+    .nav-link {
+        color: $cor-navegacao;
+        font-weight: bold;
+        margin-left: 20px;
+        text-transform: $uppercase;
+    
+        &:hover {
+            color: $cor-navegacao;
+            transform: scale(1.2);
+            transition: 0.2s;
+        }
+    }
+
+}
+
+/*Caixa*/
+
+.caixa {
+    padding: 40px 0;
+}
+
+/*Sessões*/
+
+#section1 {
+
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+    h4 {
+        color: black;
+        text-transform: $uppercase;
+        margin-top: 20px;
+    }
+
+    img {
+        border-radius: 30px;
+    }
+
+}
+
+#section2 {
+
+    background: $bg-carousel;
+
+    h2 {
+        text-transform: $uppercase;
+        color: rgb(85, 0, 0);
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    
+    .legend-carousel {
+        background: linear-gradient(100deg, rgb(245, 118, 0), rgb(134, 49, 0)) ;;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+        border-radius: 100px;
+        padding: 10px;
+
+        h3 {
+            color: white;
+            text-transform: $uppercase;
+        }
+    }
+}
+
+#pizza1 {
+    background: white;
+
+    img {
+        border-radius: 20px;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+        color: black;
+        text-transform: $uppercase;
+    }
+
+}
+
+#pizza2 {
+    background: $bg-pizza2;
+
+    img {
+        border-radius: 20px;
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+        color: black;
+        text-transform: $uppercase;
+    }
+}
+
+#footer1 {
+
+    background: $bg-footer;
+
+    ul{
+        list-style: none;
+        padding: 20px;
+
+        li a{
+            color: white;
+            text-transform: $uppercase;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+                color: yellow;
+            }
+        }
+    }
+
+    h4 {
+        color: white;
+        font-weight: bold;
+        text-transform: $uppercase;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .icones {
+        margin-top: 40px;
+    }
+
+    .btn-outline-light:hover {
+        color: rgb(255, 153, 0);
+    }
+
+}
+
+#footer2 {
+    background: $bg-footer2;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    h2 {
+        text-transform: $uppercase;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

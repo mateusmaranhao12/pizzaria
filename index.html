@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <link rel="icon" href="img/logo.png">
+    <title>Pizzaria Johnson</title>
+  </head>
+  <body>
+
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-pizzaria">
+        <a href="" class="navbar-brand logo"><img src="img/logo.png" width="32px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="caixa">
+      <div  id="section1" class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/section1.jpg" class="img-fluid">
+            <h4>Pizza Calabresa por R$20,00</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc nec porta laoreet, 
+              lorem odio molestie mi, at ultricies mauris ligula ac ligula. In convallis metus nec libero aliquam cursus.</p>
+            <button class="btn btn-warning" type="button">Fazer pedido</button>
+          </div>
+          <div class="col-md-6">
+            <img src="img/section2.jpg" class="img-fluid">
+            <h4>Pizza Marguerita por apenas R$15,00</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc nec porta laoreet, 
+              lorem odio molestie mi, at ultricies mauris ligula ac ligula. In convallis metus nec libero aliquam cursus.</p>
+            <button class="btn btn-warning" type="button">Fazer pedido</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="caixa d-none d-md-block" id="section2"><!--Carousel-->
+      <h2>Pizzas Especiais</h2>
+      <div id="carousel-legenda" class="container carousel slide" data-ride="carousel"><!--Carousel -->
+
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+
+          <li class="active" data-target="#carousel-legenda" data-slide-to="0"></li>
+
+          <li data-target="#carousel-legenda" data-slide-to="1"></li>
+
+          <li data-target="#carousel-legenda" data-slide-to="2"></li>
+
+        </ol>
+
+        <div class="carousel-inner"><!--Inner -->
+          
+          <div class="carousel-item active">
+            <img src="img/carousel1.jpg" class="img-fluid">
+            <div class="carousel-caption">
+              <div class="legend-carousel">
+                <h3>Pizza 3 queijos com calabresa, por R$ 60,00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/carousel2.jpg" class="img-fluid">
+            <div class="carousel-caption">
+              <div class="legend-carousel">
+                <h3>Marguerita especial por R$ 50,00</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/carousel3.jpg" class="img-fluid">
+            <div class="carousel-caption">
+              <div class="legend-carousel">
+                <h3>Pizza com camarão por R$80,00</h3>
+              </div>
+            </div>
+          </div>
+
+        </div><!--/Inner -->
+
+        <!-- Controles -->
+        <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div><!--/Carousel -->
+    </section><!--Fim Carousel-->
+    <section id="pizza1" class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/pizza1.png" class="img-fluid d-none d-md-block">
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Pizza 4 Queijos, por apenas R$30,00</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc nec porta laoreet, 
+                lorem odio molestie mi, at ultricies mauris ligula ac ligula. In convallis metus nec libero aliquam cursus. 
+                Duis sem odio, porta a varius placerat, rutrum non felis. Cras ut orci varius leo porttitor lobortis vitae 
+                vitae nisi.</p>
+              <button class="btn btn-warning" type="button">Fazer pedido</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pizza2" class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Pizza Frango e Catupiry, por apenas R$35,00</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat, nunc nec porta laoreet, 
+                lorem odio molestie mi, at ultricies mauris ligula ac ligula. In convallis metus nec libero aliquam cursus. 
+                Duis sem odio, porta a varius placerat, rutrum non felis. Cras ut orci varius leo porttitor lobortis vitae 
+                vitae nisi.</p>
+              <button class="btn btn-warning" type="button">Fazer pedido</button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/pizza2.jpg" class="img-fluid d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Cardápio</a></li>
+              <li><a href="">Serviços</a></li>
+              <li><a href="">Preços</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4><i class="fas fa-phone"></i> Contato: (82) 3245-3245</h4>
+          </div>
+          <div class="icones col-md-4 justify-content-end">
+            <a href="" class="btn btn-outline-light">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+            <a href="" class="btn btn-outline-light ml-2">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="" class="btn btn-outline-light ml-2">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a href="" class="btn btn-outline-light ml-2">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="footer2">
+      <div class="col-md-12">
+        <h2><i class="far fa-copyright"></i> Todos os direitos reservados</h2>
+      </div>
+    </footer>
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*Variáveis*/
+/*Variáveis*/
+/*Layout*/
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(100deg, #ffe694, #ffc880);
+  /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+/*Barra de navegação*/
+.navbar-pizzaria {
+  background: linear-gradient(100deg, #ff9900, #ffc400);
+  border-radius: 0 0 50px 50px;
+  opacity: 0.8;
+}
+
+.navbar-pizzaria .nav-link {
+  color: #420000;
+  font-weight: bold;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-pizzaria .nav-link:hover {
+  color: #420000;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/*Caixa*/
+.caixa {
+  padding: 40px 0;
+}
+
+/*Sessões*/
+#section1 {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+#section1 h4 {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#section1 img {
+  border-radius: 30px;
+}
+
+#section2 {
+  background: linear-gradient(100deg, #fff349, #ffd900);
+}
+
+#section2 h2 {
+  text-transform: uppercase;
+  color: #550000;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#section2 .legend-carousel {
+  background: linear-gradient(100deg, #f57600, #863100);
+  -webkit-box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  padding: 10px;
+}
+
+#section2 .legend-carousel h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+#pizza1 {
+  background: white;
+}
+
+#pizza1 img {
+  border-radius: 20px;
+  -webkit-box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+}
+
+#pizza1 h2 {
+  color: black;
+  text-transform: uppercase;
+}
+
+#pizza2 {
+  background: #ffffdc;
+}
+
+#pizza2 img {
+  border-radius: 20px;
+  -webkit-box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.6);
+}
+
+#pizza2 h2 {
+  color: black;
+  text-transform: uppercase;
+}
+
+#footer1 {
+  background: orange;
+}
+
+#footer1 ul {
+  list-style: none;
+  padding: 20px;
+}
+
+#footer1 ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#footer1 ul li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+#footer1 h4 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#footer1 .icones {
+  margin-top: 40px;
+}
+
+#footer1 .btn-outline-light:hover {
+  color: #ff9900;
+}
+
+#footer2 {
+  background: orangered;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#footer2 h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=estilos.css.map */
